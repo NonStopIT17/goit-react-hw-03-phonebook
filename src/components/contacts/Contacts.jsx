@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 class ContactList extends React.Component {
   render() {
     const { contacts, deleteContact } = this.props;
-
     return (
       <div>
         <ul style={{ paddingLeft: "30px" }}>
